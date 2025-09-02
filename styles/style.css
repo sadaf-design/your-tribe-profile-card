@@ -12,7 +12,7 @@ body:has(.profile-card-example) {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  color: #36bedd;
 }
 
 article.profile-card-example {
@@ -25,7 +25,7 @@ article.profile-card-example {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
+  background: rgb(102, 81, 210);
   background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   transition: .25s;
@@ -67,11 +67,11 @@ button.profile-card-example-button svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: #151b95;
   transition-delay: .25s;
 }
 button.profile-card-example-button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: rgb(25, 165, 175);
 }
 button.profile-card-example-button svg:nth-of-type(2) {
   opacity: 0;
