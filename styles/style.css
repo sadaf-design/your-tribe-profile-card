@@ -1,0 +1,35 @@
+
+    body {
+      background-color: #f0f0f0;       /* Lichtgrijze achtergrond */
+    }
+
+    header {
+      color: white;                    /* Witte tekst */
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #444;
+    }
+
+    ol {
+      background-color: white;
+      display: inline-block;
+      text-align: left;                /* Binnen de lijst links uitlijnen */
+    }
+
+    footer {
+      background-color: #222;          /* Donkere footer */
+      color: white;
+
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+    }
