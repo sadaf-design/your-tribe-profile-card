@@ -4,7 +4,7 @@
     }
 
     header {
-      color: white;                    /* Witte tekst */
+      color: rgb(92, 71, 71);                    /* gekleurde tekst */
     }
 
     h1 {
@@ -13,11 +13,11 @@
 
     h2 {
       font-size: 22px;
-      color: #444;
+      color: #d21f1f;
     }
 
     ol {
-      background-color: white;
+      background-color: rgb(22, 105, 78);
       display: inline-block;
       text-align: left;                /* Binnen de lijst links uitlijnen */
     }
