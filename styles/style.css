@@ -52,16 +52,20 @@
 
 
 
-   .emoji {
-    font-size: 1.4em      
-   }          
+           
 
    body {
       background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRxa3Vid2VhN2V2Nmk5ZzV3czYyNGRnbTcxN3Jrd2d1cmltNWtwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OxwuhoLnIcWk0/giphy.gif');
       background-size: cover;             /* Vul heel het scherm */
       background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
       background-position: center center; /* Centraal plaatsen */
-      padding: 10px 50px 20px;
    }
 
+.kaartje {
+  width: 250px;            /* Maak het kaartje kleiner */
+  padding: 15px;           /* Ruimte binnenin het kaartje */
+  border-radius: 8px;      /* Afgeronde hoeken */
+  text-align: center;      /* Tekst in het midden */
+  margin: 50px auto;       /* Centreer het kaartje op de pagina */
+}
  
