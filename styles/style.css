@@ -27,6 +27,7 @@
     footer {
       background-color: #b7227c;          /* Donkere footer */
       color: white;
+      animation-name: slide;              /*animatie header naar links naar rechts */
 
     }
 
