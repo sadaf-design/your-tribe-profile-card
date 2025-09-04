@@ -1,6 +1,6 @@
 
     body {
-      background-color: #ca55a1;       /* Lichtgrijze achtergrond */
+      background-color: #ca55a1;       /* paarse achtergrond */
     }
 
     header {
@@ -46,7 +46,9 @@
       width: 300px;    /* Breedte van de afbeelding */
       height: auto;     /* Hoogte wordt automatisch aangepast (vervormt niet) */
       border-radius: 10px;        /* Afgeronde hoeken */
+      rotate: z 45deg;
     }
+
 
 
    .emoji {
