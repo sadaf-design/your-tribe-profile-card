@@ -19,11 +19,11 @@
 }
 
     h1 {
-      font-size: 28px;    /* Lettergrootte van h1 */
+      font-size: 16px;    /* Lettergrootte van h1 */
     }
 
     h2 {
-      font-size: 22px;           /* Lettergrootte van h2 */
+      font-size: 16px;           /* Lettergrootte van h2 */
       color: #641a84;           /* Paarse tekstkleur */
       background-color: rgb(from rgb(151, 27, 147) r g b)      
     }
@@ -43,23 +43,17 @@
     }
 
     img {
-      width: 100px;    /* Breedte van de afbeelding */
+      width: 185px;    /* Breedte van de afbeelding */
       height: auto;     /* Hoogte wordt automatisch aangepast (vervormt niet) */
       border-radius: 10px;        /* Afgeronde hoeken */
       rotate: z 45deg;
-      padding: 20px 70px 30px;
+      padding: 25px 1px 30px;
     }
 
 
 
            
 
-   body {
-      background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRxa3Vid2VhN2V2Nmk5ZzV3czYyNGRnbTcxN3Jrd2d1cmltNWtwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OxwuhoLnIcWk0/giphy.gif');
-      background-size: cover;             /* Vul heel het scherm */
-      background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
-      background-position: center center; /* Centraal plaatsen */
-   }
 
 .kaartje {
   width: 250px;            /* Maak het kaartje kleiner */
@@ -67,5 +61,9 @@
   border-radius: 8px;      /* Afgeronde hoeken */
   text-align: center;      /* Tekst in het midden */
   margin: 50px auto;       /* Centreer het kaartje op de pagina */
+  background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRxa3Vid2VhN2V2Nmk5ZzV3czYyNGRnbTcxN3Jrd2d1cmltNWtwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OxwuhoLnIcWk0/giphy.gif');
+      background-size: cover;             /* Vul heel het scherm */
+      background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
+      background-position: center center; /* Centraal plaatsen */
 }
  
