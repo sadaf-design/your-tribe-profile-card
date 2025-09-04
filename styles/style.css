@@ -14,6 +14,7 @@
     h2 {
       font-size: 22px;
       color: #d21f1f;
+      background-color: rgb(from rgb(175, 27, 27) r g b)
     }
 
     ol {
@@ -33,3 +34,13 @@
       height: auto;
       border-radius: 10px;
     }
+
+   .emoji {
+    font-size: 1.4em
+   }
+
+   body {
+      background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRxa3Vid2VhN2V2Nmk5ZzV3czYyNGRnbTcxN3Jrd2d1cmltNWtwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OxwuhoLnIcWk0/giphy.gif')
+      background-size: cover;             /* Vul heel het scherm */
+      background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
+      background-position: center center; /* Centraal plaatsen */
