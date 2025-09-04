@@ -1,10 +1,10 @@
 
     body {
-      background-color: #f0f0f0;       /* Lichtgrijze achtergrond */
+      background-color: #ca55a1;       /* Lichtgrijze achtergrond */
     }
 
     header {
-      color: rgb(92, 71, 71);                    /* gekleurde tekst */
+      color: rgb(69, 23, 148);                    /* gekleurde tekst */
     }
 
     h1 {
@@ -13,18 +13,18 @@
 
     h2 {
       font-size: 22px;
-      color: #d21f1f;
-      background-color: rgb(from rgb(175, 27, 27) r g b)
+      color: #641a84;
+      background-color: rgb(from rgb(151, 27, 147) r g b)
     }
 
     ol {
-      background-color: rgb(22, 105, 78);
+      background-color: rgb(125, 23, 71);
       display: inline-block;
       text-align: left;                /* Binnen de lijst links uitlijnen */
     }
 
     footer {
-      background-color: #222;          /* Donkere footer */
+      background-color: #b7227c;          /* Donkere footer */
       color: white;
 
     }
