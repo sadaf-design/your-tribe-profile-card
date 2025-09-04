@@ -5,8 +5,17 @@
 
     header {
       color: rgb(69, 23, 148);                    /* gekleurde tekst */
-    animation-name: slide;              /*animatie header naar links naar rechts */
+    animation: slide 2s;              /*animatie header naar links naar rechts */
     }
+
+    @keyframes slide {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 400px;
+  }
+}
 
     h1 {
       font-size: 28px;
@@ -27,7 +36,7 @@
     footer {
       background-color: #b7227c;          /* Donkere footer */
       color: white;
-      animation-name: slide;              /*animatie header naar links naar rechts */
+      animation: slide 3s;              /*animatie header naar links naar rechts */
 
     }
 
