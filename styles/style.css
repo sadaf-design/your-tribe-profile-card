@@ -5,6 +5,7 @@
 
     header {
       color: rgb(69, 23, 148);                    /* gekleurde tekst */
+    animation-name: slide;              /*animatie header naar links naar rechts */
     }
 
     h1 {
@@ -45,3 +46,5 @@
       background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
       background-position: center center; /* Centraal plaatsen */
    }
+
+ 
