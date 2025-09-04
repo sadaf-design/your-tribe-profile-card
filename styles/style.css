@@ -36,7 +36,7 @@
     footer {
       background-color: #b7227c;          /* Donkere footer */
       color: white;
-      animation: slide 3s;              /*animatie header naar links naar rechts */
+      animation: slide 2s;              /*animatie header naar links naar rechts */
 
     }
 
@@ -45,6 +45,9 @@
       height: auto;
       border-radius: 10px;
     }
+
+    .my-image {
+  image-resolution: from-image 300dpi;
 
    .emoji {
     font-size: 1.4em
