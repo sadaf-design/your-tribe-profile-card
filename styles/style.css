@@ -61,6 +61,7 @@
       background-size: cover;             /* Vul heel het scherm */
       background-attachment: fixed;       /* Blijft op zijn plek bij scrollen */
       background-position: center center; /* Centraal plaatsen */
+      padding: 10px 50px 20px;
    }
 
  
