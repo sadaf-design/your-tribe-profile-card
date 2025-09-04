@@ -8,6 +8,7 @@
     animation: slide 2s;              /*animatie header naar links naar rechts */
     }
 
+    /* Slide-animatie van links naar rechts (voor header en footer) */
     @keyframes slide {
   from {
     translate: 0;
@@ -18,40 +19,39 @@
 }
 
     h1 {
-      font-size: 28px;
+      font-size: 28px;    /* Lettergrootte van h1 */
     }
 
     h2 {
-      font-size: 22px;
-      color: #641a84;
-      background-color: rgb(from rgb(151, 27, 147) r g b)
+      font-size: 22px;           /* Lettergrootte van h2 */
+      color: #641a84;           /* Paarse tekstkleur */
+      background-color: rgb(from rgb(151, 27, 147) r g b)      
     }
 
     ol {
-      background-color: rgb(125, 23, 71);
-      display: inline-block;
+      background-color: rgb(125, 23, 71);      /* Donkerroze achtergrond */
+
+      display: inline-block;                /* Zorgt dat de lijst niet de hele breedte inneemt
       text-align: left;                /* Binnen de lijst links uitlijnen */
     }
 
     footer {
       background-color: #b7227c;          /* Donkere footer */
-      color: white;
+      color: white;                     /* Witte tekstkleur */
       animation: slide 2s;              /*animatie header naar links naar rechts */
 
     }
 
     img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
+      width: 300px;    /* Breedte van de afbeelding */
+      height: auto;     /* Hoogte wordt automatisch aangepast (vervormt niet) */
+      border-radius: 10px;        /* Afgeronde hoeken */
     }
 
-    .my-image {
-  image-resolution: from-image 300dpi;
 
    .emoji {
-    font-size: 1.4em
-   }
+    font-size: 1.4em      
+   }          
 
    body {
       background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjRxa3Vid2VhN2V2Nmk5ZzV3czYyNGRnbTcxN3Jrd2d1cmltNWtwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OxwuhoLnIcWk0/giphy.gif');
