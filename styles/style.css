@@ -56,7 +56,7 @@
 
 
 .kaartje {
-  width: 250px;            /* Maak het kaartje kleiner */
+  width: 500px;            /* Maak het kaartje kleiner */
   padding: 15px;           /* Ruimte binnenin het kaartje */
   border-radius: 8px;      /* Afgeronde hoeken */
   text-align: center;      /* Tekst in het midden */
